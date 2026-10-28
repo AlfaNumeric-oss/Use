@@ -151,3 +151,16 @@ INSERT INTO itens_pedido VALUES
  (26, 1014, 10, 1, 950.00),
  (27, 1015, 3, 2, 80.00),
  (28, 1015, 9, 1, 180.00);
+
+
+
+#2 Identificação de clientes sem movimentação
+O departamento de marketing de uma empresa pretende desenvolver uma campanha de recuperação de clientes. Para isso, precisa conhecer o histórico de compras de todos os clientes cadastrados no sistema.
+A empresa identificou que alguns clientes possuem cadastro, mas nunca realizaram pedidos. Entretanto, esses clientes também deverão constar no relatório, pois são importantes para as ações comerciais.
+Desenvolva uma consulta SQL que apresente:
+
+•Nome de todos os clientes cadastrados.
+•Quantidade de pedidos realizados por cada cliente.
+•Valor total acumulado dos pedidos.
+•Clientes sem pedidos deverão aparecer com quantidade e valor total iguais a zero.
+Organize o relatório em ordem alfabética pelo nome do cliente
