@@ -164,3 +164,17 @@ Desenvolva uma consulta SQL que apresente:
 •Valor total acumulado dos pedidos.
 •Clientes sem pedidos deverão aparecer com quantidade e valor total iguais a zero.
 Organize o relatório em ordem alfabética pelo nome do cliente
+
+
+#3 Análise de categorias e preços dos produtos
+Uma rede varejista está realizando uma auditoria em seu cadastro de produtos. O objetivo é identificar categorias com produtos cadastrados e categorias que ainda não receberam nenhum produto.
+A equipe administrativa também deseja conhecer a variação dos preços dos produtos existentes em cada categoria.
+O relatório deverá utilizar as informações das tabelas produtos e categorias, considerando que todas as categorias cadastradas precisam aparecer, independentemente da existência de produtos associados.
+Elabore uma consulta SQL que apresente:
+
+•Nome de todas as categorias.
+•Quantidade de produtos cadastrados em cada categoria.
+•Menor preço encontrado entre os produtos de cada categoria.
+•Maior preço encontrado entre os produtos de cada categoria.
+•Categorias sem produtos deverão apresentar quantidade zero e preços nulos.
+•Organize o resultado pelo nome da categoria.
